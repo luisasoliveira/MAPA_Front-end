@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact page for Coder Girls, a blog created by coder girls for coder girls.">
+    <title>Se conecte com a gente</title>
+    <link rel="stylesheet" href="./src/assets/css/styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to Coder Girls</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Entre em contato </h1>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar mensagem</button>
+        </form>
+        <div id="form-message"></div>
+    </main>
+
+    <footer style="position: fixed; left: 0; bottom: 0; width: 100%; border-radius: 0 0 16px 16px; box-shadow: 0 -2px 8px rgba(0,0,0,0.08); background: rgba(51, 51, 51, 0.95); color: #fff; text-align: center; padding: 18px 0; z-index: 100;">
+        <p>&copy;© 2025 Coder Girls. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./src/assets/js/main.js"></script>
+</body>
+</html>
